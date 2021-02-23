@@ -10,9 +10,10 @@ export default function RegForm() {
         <Image style={styles.avatar} source={require("../assets/icon.png")} />
         <AntDesign
           name="pluscircleo"
-          style={styles.iconClose}
+          // style={styles.iconClose}
           size={25}
           color="#FF6C00"
+          // borderRadius="5"
         />
       </View>
       <Text style={styles.text}>Form</Text>
@@ -49,7 +50,6 @@ const styles = StyleSheet.create({
   },
   iconClose: {
     position: "absolute",
-    // left: "20%",
     top: 81,
     left: 107.5,
   },
